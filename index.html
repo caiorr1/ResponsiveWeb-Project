@@ -1,76 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/images/logo.ico" />
-    <title>Grupo - Inicio</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/index.css" />
-  </head>
 
-  <body>
-    <nav class="nav_main">
-      <div class="main_logo">
-        <img
-          src="assets/images/logo.png"
-          alt="Logo do site"
-          class="logo_image"
-        />
-        <h2 class="logo_name">Grupo</h2>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/logo.ico" />
+  <title>Grupo - Inicio</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+</head>
 
-      <ul class="main_list">
-        <li><a href="#" class="nav_link isActive">Inicio</a></li>
-        <li><a href="integrantes.html" class="nav_link">Integrantes</a></li>
-        <li><a href="clientes_porto.html" class="nav_link">Porto</a></li>
-        <li><a href="organograma.html" class="nav_link">Organograma</a></li>
-        <li><a href="modal.html" class="nav_link">Modal</a></li>
-      </ul>
-    </nav>
+<body>
+  <nav class="nav_main">
+    <div class="main_logo">
+      <img src="assets/images/logo.png" alt="Logo do site" class="logo_image" />
+      <h2 class="logo_name">Grupo</h2>
+    </div>
 
-    <header>
-      <h1>Challenge Porto</h1>
-      <p>Página inicial do Challenge Porto - Realizado em 2023.01</p>
-    </header>
+    <ul class="main_list">
+      <li><a href="#" class="nav_link isActive">Inicio</a></li>
+      <li><a href="integrantes.html" class="nav_link">Integrantes</a></li>
+      <li><a href="clientes_porto.html" class="nav_link">Porto</a></li>
+      <li><a href="organograma.html" class="nav_link">Organograma</a></li>
+      <li><a href="modal.html" class="nav_link">Modal</a></li>
+    </ul>
+  </nav>
 
-    <section class="sobre">
-      <div class="sobre_header">
-        <h2>Sobre o projeto</h2>
-      </div>
-      <p>
-        Em nosso projeto, buscamos desenvolver um modelo simples de negócio, que
-        terá como premissa o baixo custo e adaptação ao modelo atual já
-        utilizado pela Porto. Quermos trazer uma solução pratica que irá de um
-        modo simples e inteligente suprir todas as necessidades trazidas em
-        relação à chamados de socorro para veículos pesados, mitigando custos
-        desnecessários com envio de modais inadequados para o atendimento.
-        Basicamente, quando um novo cliente for contratar os serviços de seguro
-        da Porto, iremos desenvolver uma inteligência que irá triar o tipo de
-        usuário e caso ele se enquadre na classe de veículo pesado, será
-        oferecido que ele vá até uma das agências da Porto espalhados pela
-        cidade para realizar um cadastro mais detalhado de seu veículo ou então
-        será agendado uma visita de um modal do tipo moto, que fará um cadastro
-        mais detalhado do segurado. Esse mesmo conceito se aplicaria para um
-        cliente que já possua o seguro, com base nos dados das apólices, iremos
-        conseguir mapear o tipo do cliente e caso ele seja aderente, o nosso
-        chatbot será preparado para salvar novas informações sobre seu veículo,
-        sejam elas: alterações, informações que podem ter sido equivocadas e
-        precisam serem armazenadas da forma correta. Tudo será salvo em seu
-        histórico e tudo estará sempre atualizado conforme necessário. Esse
-        processo será muito importante, pois com ele no cadastro do cliente, a
-        Porto já saberá qual o modal necessário para realizar o serviço,
-        evitando assim custos desnecessários com locomoção de modais adicionas e
-        garantindo a satisfação e presteza no atendimento ao segurado. Os modais
-        são parte importante para que o cliente possa receber o suporte
-        necessário, cada modal é apropriado para cada veículo específico e para
-        o problema que aconteceu no veículo.
-      </p>
-    </section>
+  <header>
+    <h1>Challenge Porto</h1>
+    <p>Página inicial do Challenge Porto - Realizado em 2023.01</p>
+  </header>
 
-    <footer>
-      Grupo	&#174; copyright 2023. Todos os direitos reservados.
-    </footer>
-  </body>
+  <section class="sobre">
+    <div class="sobre_header">
+      <h2>Sobre o projeto</h2>
+    </div>
+    <p>
+      1. Em nosso projeto, buscamos desenvolver um modelo simples de negócio,
+      que terá como premissa o baixo custo e adaptação ao modelo atual já
+      utilizado pela Porto. Queremos trazer uma solução pratica que irá de um
+      modo simples e inteligente suprir todas as necessidades trazidas em
+      relação à chamados de socorro para veículos pesados, mitigando custos
+      desnecessários com envio de modais inadequados para o atendimento.
+      Basicamente, quando um novo cliente for contratar os serviços de seguro
+      da Porto, iremos desenvolver uma inteligência que irá triar o tipo de
+      usuário com base em um banco de dados, esse banco irá armazenar todas as
+      informações básicas do cliente e de sua apólice, portanto quando o mesmo
+      abrir um sinistro, o chatbot irá procurar a apólice conforme os dados
+      fornecidos e logo em seguida fará perguntas adicionais para que a
+      escolha do modal seja assertiva. Esse mesmo conceito se aplicaria para
+      um cliente que já possua o seguro, vamos inserir ele no banco, e o
+      processo após a abertura do sinistro seria o mesmo. O nosso chatbot será
+      preparado para salvar novas informações sobre seu veículo, sejam elas:
+      alterações, informações que podem ter sido equivocadas e precisam serem
+      armazenadas da forma correta. Tudo será salvo em seu histórico e tudo
+      estará sempre atualizado conforme necessário. Esse processo será muito
+      importante, pois com ele no cadastro do cliente, a Porto já saberá qual
+      o modal necessário para realizar o serviço, evitando assim custos
+      desnecessários com locomoção de modais adicionas e garantindo a
+      satisfação e presteza no atendimento ao segurado. Os modais são parte
+      importante para que o cliente possa receber o suporte necessário, cada
+      modal é apropriado para cada veículo específico e para o problema que
+      aconteceu no veículo.
+    </p>
+  </section>
+
+  <footer>Grupo &#174; copyright 2023. Todos os direitos reservados.</footer>
+</body>
+
 </html>
